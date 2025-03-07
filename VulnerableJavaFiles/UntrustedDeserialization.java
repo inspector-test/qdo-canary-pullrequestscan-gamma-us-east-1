@@ -19,6 +19,7 @@ public class UntrustedDeserialization {
         return mapper.readValue(input, List.class);
     }
     // {/fact}
+    // test
 
     // {fact rule=untrusted-deserialization@v1.0 defects=0}
     public List ObjectMapperCompliant(final File input) throws Exception {
