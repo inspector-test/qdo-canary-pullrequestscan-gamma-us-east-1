@@ -21,11 +21,11 @@ public class UntrustedDeserialization {
     // {/fact}
 
     // {fact rule=untrusted-deserialization@v1.0 defects=0}
-    public List ObjectMapperCompliant(final File input) throws Exception {
-        final ObjectMapper mapper = new ObjectMapper();
-        // Compliant: disabling default typing prevents the vulnerability.
-        mapper.deactivateDefaultTyping();
-        return mapper.readValue(input, List.class);
-    }
+    // public List ObjectMapperCompliant(final File input) throws Exception {
+    //     final ObjectMapper mapper = new ObjectMapper();
+    //     // Compliant: disabling default typing prevents the vulnerability.
+    //     mapper.deactivateDefaultTyping();
+    //     return mapper.readValue(input, List.class);
+    // }
     // {/fact}
 }
