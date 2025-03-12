@@ -22,6 +22,7 @@ public class SqlInjection {
         }
     }
     // {/fact}
+    // test
 
     // {fact rule=sql-injection@v1.0 defects=0}
     public void executeSqlStatementCompliant(HttpServletRequest request, java.sql.Connection connection) {
